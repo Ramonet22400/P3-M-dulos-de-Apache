@@ -34,3 +34,47 @@ Una vez dentro cmabiaremos su configuración, aplicando los siguientes cambios:
 ![image](https://user-images.githubusercontent.com/113515330/200922967-7bde31f5-0b61-4a27-bbf2-1a47dcc8894e.png)
 
 Guardaremos y reinicamos el servidor Apache: sudo service apache2 restart
+
+
+### 3. Crea una carpeta en la raíz del path del servidor con el nombre public y otra con el 
+### nombre private. Permite que la carpeta public se visualice y el resto de las carpetas 
+### que se creen, incluyendo private, no se muestren. A continuación, puede observar 
+### como se debe de mostrar la carpeta public:
+
+Primero de todo tendremos que acceder a la carpeta pública de Apache, y para movernos a traves de ella necesitaremos el siguiente comando: 
+
+![image](https://user-images.githubusercontent.com/113515330/201221483-62312a49-11b8-4328-a7b3-f9f952c3db07.png)
+
+Lo siguiente es crear un directorio, entonces para ello crearemos una carpeta con el nombre del directorio.
+
+![image](https://user-images.githubusercontent.com/113515330/201221774-9c643a29-c10d-4fdc-a12d-a25f7cb5d297.png)
+
+Luego crearemos la segunda carpeta, con el siguiente directorio.
+
+![image](https://user-images.githubusercontent.com/113515330/201221884-f0cb3483-af7a-42d2-a90d-456b9ad6dfdd.png)
+
+A continuación le daremos permiso a las dos carpetas, de esta forma evitaremos futuros problemas...
+
+![image](https://user-images.githubusercontent.com/113515330/201222144-fc661460-e43f-4a9a-8404-deb6272ba0e8.png)
+
+Las dos paginas se veran que ver de la siguiente forma una vez creadas:
+
+![image](https://user-images.githubusercontent.com/113515330/201226816-a6f73f67-c868-4d65-8a8a-ccf4e5018c0f.png)
+
+Como la segunda es una carpeta privada tendremos que tener permiso para acceder a ella.
+
+![image](https://user-images.githubusercontent.com/113515330/201226847-cfd741f7-3741-4936-a917-4a87867a941d.png)
+
+
+### 4. Prueba de acceder poniendo www. delante de tu URL actual. ¿Funciona? En caso 
+### negativo, haz que funcione mediante el módulo mod_rewrite. Investigue como 
+### utilizar el archivo .htacess para implementarlo.
+
+
+
+
+
+
+
+
+

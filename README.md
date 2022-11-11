@@ -69,6 +69,9 @@ Como la segunda es una carpeta privada tendremos que tener permiso para acceder 
 ### 4. Prueba de acceder poniendo www. delante de tu URL actual. ¿Funciona? En caso  negativo, haz que funcione mediante el módulo mod_rewrite. Investigue como utilizar el archivo .htacess para implementarlo.
 
 
+No hace falta ningún tipo de configuración ya esta por defecto.
+
+![image](https://user-images.githubusercontent.com/113515330/201292018-d9983dad-9082-4ec5-af22-8a67783404ec.png)
 
 
 

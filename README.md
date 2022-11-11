@@ -91,11 +91,3 @@ Tendremos que seguir los comandos y las instrucciones del link superior, y luego
 El resultado es el siguiente:
 
 ![image](https://user-images.githubusercontent.com/113515330/201308090-b1bb5a84-bbd0-42ea-b1b4-ae63bc0d2581.png)
-
-### (Extra: 1 punto) Crea tu propio tema para el ejercicio anterior, sin dependencias 
-### externas
-
-
-
-
-

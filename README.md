@@ -57,6 +57,11 @@ A continuación le daremos permiso a las dos carpetas, de esta forma evitaremos 
 
 ![image](https://user-images.githubusercontent.com/113515330/201222144-fc661460-e43f-4a9a-8404-deb6272ba0e8.png)
 
+Reiniciaremos el Apache con: systemctl restart apache2. Y luego veremos que el directorio se ve tal que asi:
+
+![image](https://user-images.githubusercontent.com/113515330/201305960-1603135c-7286-4537-a786-a9e4a5f9ce1a.png)
+
+
 Las dos paginas se veran que ver de la siguiente forma una vez creadas:
 
 ![image](https://user-images.githubusercontent.com/113515330/201226816-a6f73f67-c868-4d65-8a8a-ccf4e5018c0f.png)
@@ -64,6 +69,7 @@ Las dos paginas se veran que ver de la siguiente forma una vez creadas:
 Como la segunda es una carpeta privada tendremos que tener permiso para acceder a ella.
 
 ![image](https://user-images.githubusercontent.com/113515330/201226847-cfd741f7-3741-4936-a917-4a87867a941d.png)
+
 
 
 ### 4. Prueba de acceder poniendo www. delante de tu URL actual. ¿Funciona? En caso  negativo, haz que funcione mediante el módulo mod_rewrite. Investigue como utilizar el archivo .htacess para implementarlo.
@@ -74,6 +80,20 @@ No hace falta ningún tipo de configuración ya esta por defecto.
 ![image](https://user-images.githubusercontent.com/113515330/201292018-d9983dad-9082-4ec5-af22-8a67783404ec.png)
 
 
+### 5.Muestra los directorios de Apache con un tema diferente. Puedes utilizar 
+###  https://github.com/ramlmn/Apache-Directory-Listing u otra alternativa que te llame la 
+###    atención.
+
+Tendremos que seguir los comandos y las instrucciones del link superior, y luego tendremos que cambiar el siguiente archivo:
+
+![image](https://user-images.githubusercontent.com/113515330/201307977-46f41854-1f8f-4be5-a44a-2809291d9d25.png)
+
+El resultado es el siguiente:
+
+![image](https://user-images.githubusercontent.com/113515330/201308090-b1bb5a84-bbd0-42ea-b1b4-ae63bc0d2581.png)
+
+### (Extra: 1 punto) Crea tu propio tema para el ejercicio anterior, sin dependencias 
+### externas
 
 
 
